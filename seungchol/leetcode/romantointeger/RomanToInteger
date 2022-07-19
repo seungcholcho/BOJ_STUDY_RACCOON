@@ -1,0 +1,12 @@
+class Solution(object):
+    def romanToInt(self, s):
+        print("input was: "+ s)
+        total = 0
+        for i in range (len(s)):
+            print(roman[i])
+        return total
+
+s1 = Solution()
+roman = 'LX' #input("input roman number: ")
+print(s1.romanToInt(roman))
+
